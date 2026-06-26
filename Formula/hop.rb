@@ -2,26 +2,26 @@
 class Hop < Formula
   desc "Fast full-text search and resume for coding-agent sessions"
   homepage "https://github.com/amittamari/hop"
-  version "0.2.5"
+  version "0.2.6"
   license "MIT"
 
   depends_on "gh" => :recommended
 
   on_macos do
     on_arm do
-      url "https://github.com/amittamari/hop/releases/download/v0.2.5/hop-0.2.5-aarch64-apple-darwin.tar.gz"
-      sha256 "ed6cc6a7679f4f1b37bc81d946fc5a89cbdbefbacc72fd7705e0a68ed35a3e7d"
+      url "https://github.com/amittamari/hop/releases/download/v0.2.6/hop-0.2.6-aarch64-apple-darwin.tar.gz"
+      sha256 "c3395ee2ce8f3939eeeb75ac20a2b6b809327e4b767be1a1ae062b03b0299b2c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/amittamari/hop/releases/download/v0.2.5/hop-0.2.5-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1d4a5a0ea3fffed32129ffc3b929dea78bf5d5c31991d4004f334255da935ab3"
+      url "https://github.com/amittamari/hop/releases/download/v0.2.6/hop-0.2.6-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ed27b40abc0a354ae0738c3f235faf0f404a516ea3fb04210a8f5130c8c745ad"
     end
     on_intel do
-      url "https://github.com/amittamari/hop/releases/download/v0.2.5/hop-0.2.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "55c204df45744a473f83afd8c9dac8076fbd19aa5b26c7509148c6c4b6ccf03d"
+      url "https://github.com/amittamari/hop/releases/download/v0.2.6/hop-0.2.6-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "070063d59a3e0e456598bef0e830690180dd81220d562eff422fce4362edbc06"
     end
   end
 
